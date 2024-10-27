@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5ee;
+}
+.hero{
+  background-image: url('../../public/assets/why-yc-new-full-res-B8TvYziy.webp');
+  background-position: cover;
+  height: 520px;
+  width: 614px;
+  
+}
+.blog_img{
+  height: 200px !important;
+  width: 455px !important;
+  padding-bottom: 10px;
+  border-top: 5px !important;
+  
+}
+
+@media screen and (min-width: 1400px) {
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
